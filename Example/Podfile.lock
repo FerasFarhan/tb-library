@@ -1,0 +1,14 @@
+PODS:
+  - tb-library (0.1.0)
+
+DEPENDENCIES:
+  - tb-library (from `../`)
+
+EXTERNAL SOURCES:
+  tb-library:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  tb-library: 7793252656fb5ac5f472b24933dc5b99bdeeaf31
+
+COCOAPODS: 0.39.0

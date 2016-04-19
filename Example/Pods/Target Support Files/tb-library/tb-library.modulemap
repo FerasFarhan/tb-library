@@ -1,0 +1,6 @@
+framework module tb_library {
+  umbrella header "tb-library-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,8 @@
+use_frameworks!
+
+
+target 'tb-library_Tests', :exclusive => true do
+  pod 'tb-library', :path => '../'
+
+  
+end
