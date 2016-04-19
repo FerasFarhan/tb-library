@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "tb-library"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
 s.summary          = "This is Techband all external libraries"
 
 # This description is used to generate tags and improve search results.
@@ -18,22 +18,21 @@ s.summary          = "This is Techband all external libraries"
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = "This pod will be used instead copying all needed files from project to another maually"
-
+ s.platform     = :ios
   s.homepage         = "https://github.com/FerasFarhan/tb-library"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
-  s.license          = 'MIT'
-  s.author           = { "Feras Farhan" => "ffarhan@yaab.me" }
-  s.source           = { :git => "https://github.com/FerasFarhan/tb-library.git", :tag => s.version.to_s }
+  s.license      = { :type => "MIT", :file => "LICENSE.txt" }
+  s.author           = { "Feras Farhan" => "https://github.com/FerasFarhan" }
+  s.source           = { :git => "https://github.com/FerasFarhan/tb-library.git", :tag => "0.1.1"}
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
-
+  s.requires_arc = true
   s.source_files = 'tb-library/Classes/**/*'
   s.resource_bundles = {
     'tb-library' => ['tb-library/Assets/*.png']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
