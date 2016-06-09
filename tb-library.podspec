@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "tb-library"
   s.version          = "0.1.1"
-s.summary          = "This is Techband all external libraries"
+  s.summary          = "This is Techband all external libraries"
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -23,7 +23,7 @@ s.summary          = "This is Techband all external libraries"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license      = { :type => "MIT", :file => "LICENSE.txt" }
   s.author           = { "Feras Farhan" => "https://github.com/FerasFarhan" }
-  s.source           = { :git => "https://github.com/FerasFarhan/tb-library.git", :tag => "0.1.1"}
+  s.source           = { :git => "https://github.com/FerasFarhan/tb-library.git"}
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.requires_arc = true
@@ -34,5 +34,5 @@ s.summary          = "This is Techband all external libraries"
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'AFNetworking', '~> 2.3'
 end
